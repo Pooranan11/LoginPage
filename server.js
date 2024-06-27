@@ -6,7 +6,7 @@ const mysql = require('mysql');
 const app = express();
 const port = 3000;
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const saltRounds = 10;
 
 // Configurer la connexion MySQL
